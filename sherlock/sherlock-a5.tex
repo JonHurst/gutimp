@@ -1,0 +1,27 @@
+\documentclass[12pt,a5paper]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[scaled]{helvet}
+\usepackage[paper=a5paper, bindingoffset=.4in,
+  tmargin=0.95in, bmargin=0.675in, hmargin=0.65in, heightrounded]{geometry}
+
+\pagestyle{myheadings}
+\renewcommand*\familydefault{\sfdefault}
+
+\usepackage{microtype}
+\setlength{\hfuzz}{1pt}
+\newcommand{\namedpart}[1]{\part*{#1}\addcontentsline{toc}{part}{#1}}
+\newcommand{\namedchapter}[1]{
+\chapter*{#1}
+\addcontentsline{toc}{chapter}{#1}
+\markboth{#1}{#1}
+\vspace{2em plus 2em minus 2em}}
+
+\usepackage[
+  bookmarks, bookmarksnumbered, bookmarksdepth=2,colorlinks=true,linkcolor=blue,
+  pdftitle={Adventures of Sherlock Holmes},
+  pdfauthor={A.~Conan Doyle}]{hyperref}
+
+\begin{document}
+\include{sherlock}
+\end{document}
