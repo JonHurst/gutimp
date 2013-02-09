@@ -1,0 +1,47 @@
+body {
+    max-width:40em;
+    margin: auto;
+    text-align:justify;
+    line-height:1.4;
+    padding: 0 0.2em;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 2em;
+}
+
+div.contents ul {
+    list-style-type: none;
+    margin-left:3em;
+
+}
+.volume, .contents, .chapter {
+    page-break-before: always;
+}
+
+p {
+    text-indent:1em;
+    margin: 0;
+    padding: 0;
+}
+
+h1 + p {text-indent:0;}
+
+.centered {text-align:center;}
+.right {text-align:right;}
+.sc {font-variant: small-caps;}
+.subhdg {font-size: smaller;}
+
+.letter {margin: 1em;}
+
+.poem{margin: 1em auto 2em;}
+.verse{margin: 0.75em 0;}
+.line{padding-left:2em; text-indent:-2em;}
+.line.indent1{text-indent:-1em;}
+
+.dotsleft, .dotsright {width:6em; display:inline-block;}
+.dotsleft {text-align:right;}
+.dotsright {text-align:left;}
+
+ol {list-style-type: decmal; margin:1em 0.5em; list-style-position: inside;}
