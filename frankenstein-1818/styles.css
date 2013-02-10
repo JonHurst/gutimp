@@ -12,10 +12,11 @@ h1 {
 }
 
 div.contents ul {
-    list-style-type: upper-roman;
+    list-style-type: none;
     margin-left:3em;
 
 }
+
 .volume, .contents, .chapter {
     page-break-before: always;
 }
@@ -32,7 +33,23 @@ h1 + p {text-indent:0;}
 .right {text-align:right;}
 .sc {font-variant: small-caps;}
 .subhdg {font-size: smaller;}
+.tb {margin-top: 1em;}
 
-.letter {
-    margin: 1em;
+.date {
+    font-size: smaller;
+    text-align:right;
+    margin: .2em 0;
+}
+
+.poem {
+    margin: 1em auto;
+}
+
+.line {
+    padding-left:2em;
+    text-indent: -2em;
+}
+
+.indent1 {
+    text-indent: -1em;
 }
