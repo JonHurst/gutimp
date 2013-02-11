@@ -1,0 +1,43 @@
+body {
+    max-width:40em;
+    margin: auto;
+    text-align:justify;
+    line-height:1.4;
+    padding: 0 0.2em;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 2em;
+}
+
+div.contents ul {
+    list-style-type: upper-roman;
+    margin-left:3em;
+
+}
+.volume, .contents, .chapter {
+    page-break-before: always;
+}
+
+p {
+    text-indent:1em;
+    margin: 0;
+    padding: 0;
+}
+
+h1 + p {text-indent:0;}
+
+.centered {text-align:center;}
+.right {text-align:right;}
+.sc {font-variant: small-caps;}
+.subhdg {font-size: smaller;}
+
+.tb {margin-top: 1em;}
+.date {text-align:right; margin: 0.25em 0;}
+
+.poem {margin: 1em auto;}
+.line {margin:0; padding:0 2em; text-indent:-2em;}
+.line.indent1 {text-indent: -1em;}
+.fnref {vertical-align:super; font-size:small;}
+.footnote {margin-top: 1em; text-indent:0; font-size:smaller;}
