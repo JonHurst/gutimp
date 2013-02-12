@@ -12,7 +12,7 @@ h1 {
 }
 
 div.contents ul {
-    list-style-type: upper-roman;
+    list-style-type: none;
     margin-left:3em;
 
 }
