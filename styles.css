@@ -1,0 +1,24 @@
+body {
+    max-width:45em;
+    margin:auto;
+}
+
+table, td, tr {
+    border: 1px solid gray;
+}
+
+table {
+    margin: 2em auto;
+    width: 90%;
+}
+
+td {
+    width:25%;
+    text-align:center;
+}
+
+dt {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 1em;
+}
