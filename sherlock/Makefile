@@ -1,8 +1,4 @@
-all: 6 a5
-
-a5: sherlock-a5.pdf
-
-6: sherlock-6.pdf
+all: sherlock-a5.pdf sherlock-6.pdf sherlock.epub sherlock.mobi
 
 sherlock-a5.pdf: sherlock-a5.tex sherlock.tex
 	pdflatex sherlock-a5.tex
@@ -11,7 +7,13 @@ sherlock-a5.pdf: sherlock-a5.tex sherlock.tex
 sherlock-6.pdf: sherlock-6.tex sherlock.tex
 	pdflatex sherlock-6.tex
 	pdflatex sherlock-6.tex
-	pdftk sherlock-6.pdf stamp blankstamp6.pdf output sherlock.marks.pdf
+	pdftk sherlock-6.pdf stamp ../common/blankstamp6.pdf output sherlock.marks.pdf
 	mv sherlock.marks.pdf sherlock-6.pdf
-	ln -sf sherlock-6.pdf "Adventures of Sherlock Holmes.pdf"
+	ln -sf sherlock-6.pdf "The Adventures of Sherlock Holmes.pdf"
+	cleantex
 
+sherlock.epub: sherlock.html styles.css
+	sigil sherlock.xhtml
+
+sherlock.mobi: sherlock.epub
+	kindlegen -c2 sherlock.epub
