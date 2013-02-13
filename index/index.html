@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Prototype micro-library</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+  </head>
+  <body>
+    <h1 class="title">Prototype micro-library</h1>
+
+    <h2>The Formats</h2>
+
+    <p>There are three formats provided in this library:</p>
+
+    <dl>
+      <dt>PDF</dt>
+      <dd>PDF is an ISO standard. Most modern devices have a PDF reader available. PDFs in this
+      library are produced using either LaTeX or PrinceXML. LaTeX derived PDFs are the highest
+      quality format available, and are provided in A5 size (suitable for printing and iPad sized
+      devices) and a smaller "e-reader" size specialised for Kindle type devices. PrinceXML derived PDFs are
+      lower quality (but easier to produce) and are only provided in the smaller size; these will be
+      replaced by LaTeX PDFs as time allows. Do not use PDFs if you want the ability to change font
+      size on the fly, and, for best results, make sure you choose the correct size.</dd>
+
+      <dt>EPUB</dt>
+      <dd>EPUB is an IDPF standard. Many devices have EPUB readers available. It is reflowable, so
+      it is possible to change font size and other display parameters on the fly. However, the
+      quality of reading experience is determined by the quality of the EPUB software on your
+      particular device, and this can be quite variable. In particular, devices tend not to
+      implement hyphenation, leading to erratic spacing of words on smaller screens.</dd>
+
+      <dt>MOBI</dt>
+      <dd>MOBI is a proprietary format used by Amazon's Kindle. It has the same advantages and
+      disadvantages as EPUB, with the added disadvantage that it is only usable on Amazon's devices
+      or with Amazon's readers.</dd>
+    </dl>
+
+    <hr/>
+
+    <h2>The Books</h2>
+    <ul>
+      <li><a href="#frank1818">Frankenstein, 1818 edition</a> by Mary Shelley</li>
+      <li><a href="#frank1831">Frankenstein, 1831 edition</a> by Mary Shelley</li>
+      <li><a href="#huck">The Adventures of Huckleberry Finn</a> by Mark Twain</li>
+      <li><a href="#pandp">Pride and Prejudice</a> by Jane Austen</li>
+      <li><a href="#sherlock">The Adventures of Sherlock Holmes"</a> by A. Conan Doyle</li>
+    </ul>
+    <hr/>
+
+    <div class="book" id="frank1818">
+      <h2>Frankenstein, 1818 edition</h2>
+      <h3>by Mary Shelley</h3>
+
+      <p>The source scans for this edition were provided by Greg Weeks. The primary digitisation was
+      carried out by the Online Distributed Proofreading Team. The primary digitisation was further
+      corrected by cross-checking against Project Gutenberg's EBook #84 (produced by Judith Boss,
+      Christy Phillips, Lynn Hanninen, and David Meltzer) and the 1831 edition below.</p>
+
+      <table>
+        <tr>
+          <td><a href="../frankenstein-1818/Frankenstein.pdf"><img src="pdflogo.png" alt="pdf"/></a></td>
+          <td><a href="../frankenstein-1818/frank-a5.pdf"><img src="pdflogo.png" alt="pdf"/></a></td>
+          <td rowspan="3"><a href="../frankenstein-1818/frankenstein-1818.epub"><img src="epublogo.png" alt="epub"/></a></td>
+          <td rowspan="3"><a href="../frankenstein-1818/frankenstein-1818.mobi"><img src="mobilogo.png" alt="mobi"/></a></td>
+        </tr>
+        <tr>
+          <td>e-reader</td>
+          <td>A5</td>
+        </tr>
+        <tr>
+          <td colspan="2">(built with LaTeX)</td>
+        </tr>
+      </table>
+    </div>
+
+
+    <div class="book" id="frank1831">
+      <h2>Frankenstein, 1831 edition</h2>
+      <h3>by Mary Shelley</h3>
+
+      <p>The source scans for this edition were provided by Greg Weeks. The primary digitisation was
+      carried out by the Online Distributed Proofreading Team. The primary digitisation was further
+      corrected by cross-checking against Project Gutenberg's EBook #84 (produced by Judith Boss,
+      Christy Phillips, Lynn Hanninen, and David Meltzer).</p>
+
+      <table>
+        <tr>
+          <td colspan="2"><a href="../frankenstein-1831/Frankenstein-1831.pdf"><img src="pdflogo.png" alt="pdf"/></a></td>
+          <td rowspan="2"><a href="../frankenstein-1831/frankenstein.epub"><img src="epublogo.png" alt="epub"/></a></td>
+          <td rowspan="2"><a href="../frankenstein-1831/frankenstein.mobi"><img src="mobilogo.png" alt="mobi"/></a></td>
+        </tr>
+        <tr>
+          <td>e-reader<br/>(built with PrinceXML)</td>
+        </tr>
+      </table>
+    </div>
+
+
+    <div class="book" id="huck">
+      <h2>The Adventures of Huckleberry Finn</h2>
+      <h3>by Mark Twain</h3>
+
+      <p>The source scans for this edition were provided by archive.org. The primary digitisation was
+      carried out by James Adcock. The primary digitisation was further corrected by cross-checking
+      against a digitisation carried out by Bowerbird.</p>
+
+      <table>
+        <tr>
+          <td colspan="2"><a href="../huckfinn/Huckleberry-Finn.pdf"><img src="pdflogo.png" alt="pdf"/></a></td>
+          <td rowspan="2"><a href="../huckfinn/huckfinn.epub"><img src="epublogo.png" alt="epub"/></a></td>
+          <td rowspan="2"><a href="../huckfinn/huckfinn.mobi"><img src="mobilogo.png" alt="mobi"/></a></td>
+        </tr>
+        <tr>
+          <td>e-reader<br/>(built with PrinceXML)</td>
+        </tr>
+      </table>
+    </div>
+
+
+    <div class="book" id="pandp">
+      <h2>Pride and Prejudice</h2>
+      <h3>by Jane Austen</h3>
+
+      <p>This is the 1923 Chapman edition, often considered the scholarly edition. The source scans
+      for this edition were provided by archive.org. The primary digitisation was carried out by the
+      Online Distributed Proofreading Team. The primary digitisation was further corrected by
+      cross-checking with Project Gutenberg's EBook #1342.</p>
+
+      <table>
+        <tr>
+          <td colspan="2"><a href="../pride-and-prejudice/Pride and Prejudice.pdf"><img src="pdflogo.png" alt="pdf"/></a></td>
+          <td rowspan="2"><a href="../pride-and-prejudice/pandp.epub"><img src="epublogo.png" alt="epub"/></a></td>
+          <td rowspan="2"><a href="../pride-and-prejudice/pandp.mobi"><img src="mobilogo.png" alt="mobi"/></a></td>
+        </tr>
+        <tr>
+          <td>e-reader<br/>(built with PrinceXML)</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="book" id="sherlock">
+      <h2>The Adventures of Sherlock Holmes</h2>
+      <h3>by A. Conan Doyle</h3>
+
+      <p>The source scans for this edition were provided by archive.org. The primary digitisation
+      was carried out by the Online Distributed Proofreading Team. The primary digitisation was
+      further corrected by cross-checking with Project Gutenberg's EBook #1661 (produced by Jose
+      Menendez).</p>
+
+      <table>
+        <tr>
+          <td><a href="../sherlock/Adventures of Sherlock Holmes.pdf"><img src="pdflogo.png" alt="pdf"/></a></td>
+          <td><a href="../sherlock/sherlock-a5.pdf"><img src="pdflogo.png" alt="pdf"/></a></td>
+          <td rowspan="3"><a href="../sherlock/sherlock.epub"><img src="epublogo.png" alt="epub"/></a></td>
+          <td rowspan="3"><a href="../sherlock/sherlock.mobi"><img src="mobilogo.png" alt="mobi"/></a></td>
+        </tr>
+        <tr>
+          <td>e-reader</td>
+          <td>A5</td>
+        </tr>
+        <tr>
+          <td colspan="2">(built with LaTeX)</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

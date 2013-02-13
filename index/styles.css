@@ -3,6 +3,10 @@ body {
     margin:auto;
 }
 
+title {
+    text-align: center;
+}
+
 table, td, tr {
     border: 1px solid gray;
 }
@@ -21,4 +25,10 @@ dt {
     font-size: 1.1em;
     font-weight: bold;
     margin-top: 1em;
+}
+
+div.book {
+    padding: 1em;
+    margin: 1em 0;
+    border: 1px solid gray;
 }
