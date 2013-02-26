@@ -1,0 +1,27 @@
+\documentclass[11pt,openany]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[paperwidth=8.5cm, paperheight=10.75cm, top=0.2cm, left=0.2cm,
+  right=0.2cm, bottom=0.2cm, heightrounded]{geometry}
+\usepackage[scaled]{helvet}
+\renewcommand*\familydefault{\sfdefault}
+\setlength{\emergencystretch}{1em}
+
+\pagestyle{empty}
+\usepackage{microtype}
+
+\newcommand{\Part}[1]{\part*{#1}\addcontentsline{toc}{part}{#1}}
+\newcommand{\Chapter}[1]{
+\chapter*{#1}
+\addcontentsline{toc}{chapter}{#1}
+\vspace{0em plus 5em}}
+
+
+\usepackage[
+  bookmarks, bookmarksnumbered, bookmarksdepth=2,colorlinks=true,linkcolor=black,
+  pdftitle={Pride and Prejudice},
+  pdfauthor={Jane Austen}]{hyperref}
+
+\begin{document}
+\include{pandp}
+\end{document}
