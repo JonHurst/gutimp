@@ -1,0 +1,53 @@
+body {
+    max-width:40em;
+    margin: auto;
+    text-align:justify;
+    line-height:1.4;
+    padding: 0 0.2em;
+}
+
+h1 {
+    font-size: x-large;
+    text-align: center;
+    padding: 2em;
+}
+
+h1.sub {
+    padding-top: 0;
+    font-size: large;
+}
+
+.contents {
+    text-align:left;
+}
+
+.contents table th {
+    white-space: nowrap;
+    text-align:left;
+}
+
+.contents, .chapter{page-break-before: always;}
+
+p {
+    text-indent:1em;
+    margin: 0;
+    padding: 0;
+}
+
+h1+p {text-indent:0;}
+
+.centered {text-align:center;}
+.right {text-align:right;}
+.sc {font-variant: small-caps;}
+.it {font-style:italic;}
+.tb {padding-top: 1em;}
+
+.poem {
+    padding: 1em 0;
+    margin:auto;
+    text-indent:2em;
+}
+
+.letter {
+    padding: 1em 0.5em;
+}
