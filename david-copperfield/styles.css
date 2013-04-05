@@ -9,21 +9,22 @@ body {
 h1 {
     font-size: x-large;
     text-align: center;
-    padding: 2em;
+    padding: 2em 0 1em;
 }
 
-h1.sub {
-    padding-top: 0;
+.sub {
     font-size: large;
 }
 
-.contents {
+.contents p{
+    margin-left: 4em;
     text-align:left;
+    text-indent:0;
 }
 
-.contents table th {
-    white-space: nowrap;
-    text-align:left;
+.contents p a{
+    margin-left: -2em;
+    display:block;
 }
 
 .contents, .chapter{page-break-before: always;}
