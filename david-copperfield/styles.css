@@ -1,24 +1,15 @@
-body {
-    max-width:40em;
-    margin: auto;
-    text-align:justify;
-    line-height:1.4;
-    padding: 0 0.2em;
-}
-
 h1 {
     font-size: x-large;
     text-align: center;
     padding: 2em 0 1em;
 }
 
-.sub {
+h1 .sub {
     font-size: large;
 }
 
 .contents p{
     margin-left: 4em;
-    text-align:left;
     text-indent:0;
 }
 
@@ -27,7 +18,17 @@ h1 {
     display:block;
 }
 
-.contents, .chapter{page-break-before: always;}
+.contents, .chapter
+{
+    margin: auto;
+    page-break-before: always;
+    max-width: 40em;
+    line-height: 1.4;
+}
+
+.chapter {
+    text-align: justify;
+}
 
 p {
     text-indent:1em;
@@ -50,4 +51,15 @@ h1+p {text-indent:0;}
 
 .letter {
     padding: 1em 0.5em;
+}
+
+
+.image {
+    text-align: center;
+    margin: 2em 0;
+}
+
+li {
+    margin-left: 1.5em;
+    text-align: left;
 }
