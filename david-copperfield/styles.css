@@ -9,25 +9,27 @@ h1 .sub {
 }
 
 .contents p{
-    margin-left: 4em;
-    text-indent:0;
-}
-
-.contents p a{
-    margin-left: -2em;
-    display:block;
+    padding: 0.1em 1em;
+    text-indent: -1em;
+    page-break-inside: avoid;
 }
 
 .contents, .chapter
 {
     margin: auto;
     page-break-before: always;
-    max-width: 40em;
     line-height: 1.4;
 }
 
+.contents
+{
+    max-width: 25em;
+}
+
+
 .chapter {
     text-align: justify;
+    max-width: 40em;
 }
 
 p {
@@ -59,11 +61,12 @@ h1+p {text-indent:0;}
     margin: 2em 0;
 }
 
-li {
-    margin-left: 1.5em;
-    text-align: left;
-}
-
 p.caption {
     text-indent:0;
 }
+
+#plates li {
+    margin: 0 0 .5em 1.5em;
+    page-break-inside: avoid;
+}
+
