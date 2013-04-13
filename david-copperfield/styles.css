@@ -63,3 +63,7 @@ li {
     margin-left: 1.5em;
     text-align: left;
 }
+
+p.caption {
+    text-indent:0;
+}
