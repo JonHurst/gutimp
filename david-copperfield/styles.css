@@ -1,3 +1,8 @@
+body {
+    color: black;
+    background: white;
+}
+
 h1, h2 {
     font-size: x-large;
     text-align: center;
@@ -9,7 +14,7 @@ h1 .sub, h2 .sub {
 }
 
 .contents p{
-    padding: 0.1em 1em;
+    padding: 0.15em 0 0.15em 1em;
     text-indent: -1em;
     page-break-inside: avoid;
 }
@@ -38,7 +43,7 @@ p {
     padding: 0;
 }
 
-h2+p {text-indent:0;}
+h2+p, p.caption {text-indent:0;}
 
 .centered {text-align:center;}
 .right {text-align:right;}
@@ -59,14 +64,8 @@ h2+p {text-indent:0;}
 .image {
     text-align: center;
     margin: 2em 0;
+    page-break-inside:avoid;
 }
 
-p.caption {
-    text-indent:0;
-}
 
-#plates li {
-    margin: 0 0 .5em 1.5em;
-    page-break-inside: avoid;
-}
 
