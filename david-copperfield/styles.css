@@ -1,10 +1,10 @@
-h1 {
+h1, h2 {
     font-size: x-large;
     text-align: center;
     padding: 2em 0 1em;
 }
 
-h1 .sub {
+h1 .sub, h2 .sub {
     font-size: large;
 }
 
@@ -38,7 +38,7 @@ p {
     padding: 0;
 }
 
-h1+p {text-indent:0;}
+h2+p {text-indent:0;}
 
 .centered {text-align:center;}
 .right {text-align:right;}
