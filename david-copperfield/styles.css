@@ -17,6 +17,7 @@ h1 .sub, h2 .sub {
     padding: 0.15em 0 0.15em 1em;
     text-indent: -1em;
     page-break-inside: avoid;
+    text-align: left;
 }
 
 .contents, .chapter
@@ -67,5 +68,11 @@ h2+p, p.caption {text-indent:0;}
     page-break-inside:avoid;
 }
 
+.title, .image {
+    page-break-before: always;
+    page-break-after: always;
+}
 
-
+.keepwithprev {
+    page-break-before: avoid;
+}
