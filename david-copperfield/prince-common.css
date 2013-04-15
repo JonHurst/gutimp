@@ -1,0 +1,60 @@
+body, td {
+    color: black;
+    background: white;
+    font-family: freesans;
+    prince-image-resolution: 166dpi;
+    prince-hyphenate-lines: 2;
+    hyphens: auto;
+    widows: 1;
+    orphans: 1;
+}
+
+
+.title, .contents, .plates, h1, h2 {
+    hyphens:none;
+}
+
+
+h1, h2 {
+    prince-bookmark-level: none;
+}
+
+
+div.contents h2, div.chapter h2 {
+    prince-bookmark-level:1;
+}
+
+
+.contents a::after {
+    content: leader(".") target-counter(attr(href), page);
+}
+
+
+.contents a {
+    text-decoration: none;
+}
+
+
+.fsl, .fsp
+{
+    margin:0 !important;
+    page-break-before:always;
+    page-break-after:always;
+}
+
+
+.image
+{
+    text-align:center;
+    display:table;
+}
+
+
+.image div
+{
+    display:table-cell;
+    vertical-align:middle;
+    height: 100%;
+    width:100%;
+}
+
