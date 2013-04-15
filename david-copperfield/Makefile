@@ -1,7 +1,8 @@
 all: text pdf zip epub
 
 zip: david-copperfield.zip
-pdf: david-copperfield-5.pdf david-copperfield-6.pdf David\ Copperfield.pdf
+pdf: david-copperfield-5.pdf david-copperfield-6.pdf \
+	david-copperfield-a5.pdf David\ Copperfield.pdf
 text: david-copperfield_utf8.txt david-copperfield_lat1.txt
 epub: david-copperfield.epub david-copperfield.mobi
 
