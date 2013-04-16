@@ -68,11 +68,27 @@ h2+p, p.caption {text-indent:0;}
     page-break-inside:avoid;
 }
 
-.title, .image {
+.title {
     page-break-before: always;
     page-break-after: always;
 }
 
 .keepwithprev {
     page-break-before: avoid;
+}
+
+@media handheld {
+    #i011 {margin-top:0; padding-top:0;}
+    #i010 img {width: 92%;}
+    #i011 img {width: 71%;}
+    #i028 img {width: 90%;}
+    #i100 img {width: 83%;}
+    #i137 img {width: 93%;}
+    #i172 img {width: 94%;}
+    #i173 img {width: 98%;}
+    #i208 img {width: 94%;}
+    #i244 img {width: 90%;}
+    #i280 img {width: 99%;}
+    #i496 img {width: 84%;}
+    #i604 img {width: 98%;}
 }
