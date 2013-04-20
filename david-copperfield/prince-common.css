@@ -19,6 +19,9 @@ body, td {
     hyphens:none;
 }
 
+chapter {
+    padding: 0 0.2em;
+}
 
 h1, h2 {
     prince-bookmark-level: none;
