@@ -4,7 +4,8 @@
       xmlns:exsl="http://exslt.org/common"
       xmlns:j="http://hursts.eclipse.co.uk"
 		xmlns:xhtml="http://www.w3.org/1999/xhtml"
-		xmlns="http://www.w3.org/1999/xhtml">
+		xmlns="http://www.w3.org/1999/xhtml"
+      exclude-result-prefixes="j exsl xsl xhtml">
 
 <xsl:output method="xml"
 	    doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"
