@@ -16,11 +16,11 @@ david-copperfield-a5.pdf: david-copperfield.xhtml styles.css prince-a5.css princ
 	prince -s prince-a5.css david-copperfield.xhtml -o david-copperfield-a5.pdf
 
 David\ Copperfield.pdf: david-copperfield-6.pdf
-#	pdftk david-copperfield-6.pdf stamp ../common/blankstamp6.pdf output David\ Copperfield.pdf
 	ln -sf david-copperfield-6.pdf David\ Copperfield.pdf
 
 david-copperfield_pg.html: david-copperfield.xhtml styles.css
-	python3 inline-css.py < david-copperfield.xhtml >david-copperfield_pg.html
+	xsltproc add-tn.xsl david-copperfield.xhtml | \
+	python3 inline-css.py  >david-copperfield_pg.html
 
 david-copperfield.zip: david-copperfield_pg.html images/*
 	rm -f david-copperfield.zip
