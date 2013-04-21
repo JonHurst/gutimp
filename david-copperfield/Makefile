@@ -19,7 +19,7 @@ David\ Copperfield.pdf: david-copperfield-6.pdf
 	ln -sf david-copperfield-6.pdf David\ Copperfield.pdf
 
 david-copperfield_pg.html: david-copperfield.xhtml styles.css
-	xsltproc add-tn.xsl david-copperfield.xhtml | \
+	xsltproc --nodtdattr add-tn.xsl david-copperfield.xhtml | \
 	python3 inline-css.py  >david-copperfield_pg.html
 
 david-copperfield.zip: david-copperfield_pg.html images/*
@@ -33,7 +33,7 @@ david-copperfield_lat1.txt: david-copperfield_utf8.txt
 	iconv -f utf8 -t l1//TRANSLIT david-copperfield_utf8.txt >david-copperfield_lat1.txt
 
 david-copperfield_noillos.xhtml: david-copperfield.xhtml
-	xsltproc strip-illustrations.xsl david-copperfield.xhtml > david-copperfield_noillos.xhtml
+	xsltproc --nodtdattr strip-illustrations.xsl david-copperfield.xhtml > david-copperfield_noillos.xhtml
 
 david-copperfield.epub: david-copperfield.xhtml styles.css images/*
 	sigil david-copperfield.xhtml
