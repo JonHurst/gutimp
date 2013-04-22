@@ -34,18 +34,22 @@
     </head>
     <body>
       <xsl:copy-of select="xhtml:html/xhtml:body/*"/>
-      <div class="chapter">
+      <div id="notes" class="chapter">
         <h2>Transcriber's notes</h2>
 
         <p>This ebook is derived from a digitisation of a signed first edition published by Bradbury
         &amp; Evans in 1850.</p>
 
-        <p>There is a fair amount of inconsistent hyphenation in this book. This has been left
-        unchanged.</p>
+        <p>The errors detailed in the errata at the start of the print edition have been
+        corrected.</p>
 
-        <p>No change has been made to archaic or dialect spelling.</p>
+        <p>Hyphenation in this book is occasionally inconsistent. Unless clearly incorrect,
+        hyphenation been left as found in the print edition.</p>
 
-        <p>The following list details the decisions made regarding correction of typos:</p>
+        <p>The book contains significant amounts of archaic and dialect spelling. Unless clearly
+        incorrect, spelling has been left as found in the print edition.</p>
+
+        <p>The following list details correction of typos:</p>
 
         <dl>
           <xsl:apply-templates select=".//xhtml:div[@class='chapter']"/>
