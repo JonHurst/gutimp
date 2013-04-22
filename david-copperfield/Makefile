@@ -18,7 +18,7 @@ david-copperfield-a5.pdf: david-copperfield.xhtml styles.css prince-a5.css princ
 David\ Copperfield.pdf: david-copperfield-6.pdf
 	ln -sf david-copperfield-6.pdf David\ Copperfield.pdf
 
-david-copperfield_pg.html: david-copperfield.xhtml styles.css
+david-copperfield_pg.html: david-copperfield.xhtml styles.css add-tn.xsl inline-css.py
 	xsltproc --nodtdattr add-tn.xsl david-copperfield.xhtml | \
 	python3 inline-css.py  >david-copperfield_pg.html
 
