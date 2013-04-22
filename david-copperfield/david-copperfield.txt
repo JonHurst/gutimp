@@ -38943,3 +38943,169 @@ which I now dismiss, still find thee near me, pointing upward!
 
 THE END.
 ::page 636::
+::blank 4::
+Transcriber's notes
+::blank 2::
+This ebook is derived from a digitisation of a signed first edition
+published by Bradbury & Evans in 1850.
+
+The errors detailed in the errata at the start of the print edition have
+been corrected.
+
+Hyphenation in this book is occasionally inconsistent.  Unless clearly
+incorrect, hyphenation been left as found in the print edition.
+
+The book contains significant amounts of archaic and dialect
+spelling. Unless clearly incorrect, spelling has been left as found in
+the print edition.
+
+The following list details correction of typos:
+
+::wrap off::
+   CHAPTER II.
+           "go" changed to "ago"
+           "dose" changed to "doze"
+           "dont" changed to "don’t"
+           "ut" changed to "but"
+
+   CHAPTER III.
+           "spongey" changed to "spongy"
+           "air" changed to "hair"
+           "canvass" changed to "canvas"
+           "a-top" is correct
+           "Havn’t" changed to "Haven’t"
+           "Pointing" changed to "pointing"
+           "similies" is correct
+           "wasnt" changed to "wasn’t"
+           Closing quote added
+           "did’nt" changed to "didn’t"
+           "have’nt" changed to "haven’t
+           "old’un" changed to "old ’un"
+
+   CHAPTER IV.
+           "stupified" is correct
+           "becase" changed to "because"
+
+   CHAPTER VI.
+           "Mr" changed to "Mr."
+
+   CHAPTER VII.
+           "what" changed to "What"
+           "to day" changed to "to-day"
+
+   CHAPTER VIII.
+           Misplaced quote removed
+
+   CHAPTER IX.
+           "controuled" is correct
+           Single quote changed to double
+
+   CHAPTER X.
+           "sh'is" used (could be "sh' is")
+
+   CHAPTER XVI.
+           Comma replaced with period
+           "can not" changed to "cannot"
+           Closing quote added
+
+   CHAPTER XVII.
+           "escrutoire" is correct
+
+   CHAPTER XX.
+           "plyed" changed to "played"
+
+   CHAPTER XXI.
+           "ewents" is correct (dialect)
+
+   CHAPTER XXII.
+           Closing quote added
+           "havn’t" changed to "haven’t"
+           "kind-naturd" changed to "kind-natur’d"
+
+   CHAPTER XXV.
+           Single quote changed to double
+           "ouse" is correct (dialect)
+           "ed" is correct (dialect)
+
+   CHAPTER XXVI.
+           "yo" changed to "you,"
+
+   CHAPTER XXIX.
+           Closing quote added
+           Correct quoting is unclear; left as text
+
+   CHAPTER XXXII.
+           Closing quote added
+           Closing quote added
+           "wont" changed to "won’t"
+
+   CHAPTER XXXIV.
+           "Your’s" changed to "Yours"
+           "aud" changed to "and"
+
+   CHAPTER XXXV.
+           Extra opening quote removed
+
+   CHAPTER XXXVI.
+           "too" changed to "two"
+           Single quote changed to double
+           Closing quote added
+           Erroneous double quote removed
+           Closing quote added
+
+   CHAPTER XXXVII.
+           Erroneous comma removed
+
+   CHAPTER XXXVIII.
+           "coroboration" changed to "corroboration"
+
+   CHAPTER XXXIX.
+           "havn’t" changed to "haven’t"
+
+   CHAPTER XL.
+           "Peggoty" changed to "Peggotty"
+
+   CHAPTER XLII.
+           Closing quote added
+           Closing quote added
+           "mavellous" changed to "marvellous"
+
+   CHAPTER XLIII.
+           "give" changed to "gives"
+
+   CHAPTER XLIV.
+           Comma questionable but left as text
+
+   CHAPTER XLVI.
+           Closing quote added
+           "boatmens’" changed to "boatmen’s"
+           "to night" changed to "to-night"
+
+   CHAPTER XLVIII.
+           capitalisation of "What" questionable; left as
+             text
+           "could'nt" changed to "couldn't"
+
+   CHAPTER XLIX.
+           "waived" changed to "waved"
+
+   CHAPTER LII.
+           Comma changed to period
+           "Mr" changed to "Mr."
+
+   CHAPTER LIV.
+           "earnestnesss" changed to "earnestness"
+
+   CHAPTER LVII.
+           "aud" changed to "and"
+
+   CHAPTER LIX.
+           "n" changed to "in"
+           "Mr Dick" changed to "Mr. Dick"
+
+   CHAPTER LXI.
+           Closing quote added
+
+   CHAPTER LXIII.
+           Closing quote moved
+           "old’un" changed to "old ’un"
