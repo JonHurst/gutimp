@@ -66,3 +66,6 @@ div.contents h2, div.chapter h2 {
     width:100%;
 }
 
+i:after {
+    content:" ";
+}
