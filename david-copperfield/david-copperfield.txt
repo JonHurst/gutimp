@@ -1897,7 +1897,7 @@ but I do. I wish I could be hardened to ’em, but I an’t. I make the
 house uncomfortable. I don’t wonder at it. I’ve made your sister so
 all day, and Master Davy.”
 
-Here I was suddenly melted, and roared out “No, you haven’t, Mrs
+Here I was suddenly melted, and roared out “No, you haven’t, Mrs.
 Gummidge,” in great mental distress.
 
 “It’s far from right that I should do it,” said Mrs. Gummidge. “It
@@ -33234,7 +33234,7 @@ the general moral (or rather immoral) resemblance between myself and--
 Heep. Need I say, that it soon became necessary for me to solicit from--
 Heep--pecuniary advances towards the support of Mrs. Micawber, and
 our blighted but rising family! Need I say that this necessity had been
-foreseen by--Heep? That those advances were secured by I O U’s and
+foreseen by--Heep? That those advances were secured by I. O. U.’s and
 other similar acknowledgments, known to the legal institutions of this
 country. And that I thus became immeshed in the web he had spun for
 my reception?’”
@@ -38946,6 +38946,7 @@ THE END.
 ::blank 4::
 Transcriber's notes
 ::blank 2::
+
 This ebook is derived from a digitisation of a signed first edition
 published by Bradbury & Evans in 1850.
 
@@ -38963,149 +38964,155 @@ The following list details correction of typos:
 
 ::wrap off::
    CHAPTER II.
-           "go" changed to "ago"
-           "dose" changed to "doze"
-           "dont" changed to "don’t"
-           "ut" changed to "but"
+           - "go" changed to "ago"
+           - "dose" changed to "doze"
+           - "dont" changed to "don’t"
+           - "ut" changed to "but"
 
    CHAPTER III.
-           "spongey" changed to "spongy"
-           "air" changed to "hair"
-           "canvass" changed to "canvas"
-           "a-top" is correct
-           "Havn’t" changed to "Haven’t"
-           "Pointing" changed to "pointing"
-           "similies" is correct
-           "wasnt" changed to "wasn’t"
-           Closing quote added
-           "did’nt" changed to "didn’t"
-           "have’nt" changed to "haven’t
-           "old’un" changed to "old ’un"
+           - "spongey" changed to "spongy"
+           - "air" changed to "hair"
+           - "canvass" changed to "canvas"
+           - "a-top" is correct
+           - "Havn’t" changed to "Haven’t"
+           - "Pointing" changed to "pointing"
+           - "similies" is correct
+           - "wasnt" changed to "wasn’t"
+           - Closing quote added
+           - "did’nt" changed to "didn’t"
+           - "have’nt" changed to "haven’t
+           - "Mrs" changed to "Mrs."
+           - "old’un" changed to "old ’un"
 
    CHAPTER IV.
-           "stupified" is correct
-           "becase" changed to "because"
+           - "stupified" is correct
+           - "becase" changed to "because"
 
    CHAPTER VI.
-           "Mr" changed to "Mr."
+           - "Mr" changed to "Mr."
 
    CHAPTER VII.
-           "what" changed to "What"
-           "to day" changed to "to-day"
+           - "what" changed to "What"
+           - "to day" changed to "to-day"
 
    CHAPTER VIII.
-           Misplaced quote removed
+           - Misplaced quote removed
 
    CHAPTER IX.
-           "controuled" is correct
-           Single quote changed to double
+           - "controuled" is correct
+           - Single quote changed to double
 
    CHAPTER X.
-           "sh'is" used (could be "sh' is")
+           - "sh'is" used (could be "sh' is")
 
    CHAPTER XVI.
-           Comma replaced with period
-           "can not" changed to "cannot"
-           Closing quote added
+           - Comma replaced with period
+           - "can not" changed to "cannot"
+           - Closing quote added
 
    CHAPTER XVII.
-           "escrutoire" is correct
+           - "escrutoire" is correct
 
    CHAPTER XX.
-           "plyed" changed to "played"
+           - "plyed" changed to "played"
 
    CHAPTER XXI.
-           "ewents" is correct (dialect)
+           - "ewents" is correct (dialect)
 
    CHAPTER XXII.
-           Closing quote added
-           "havn’t" changed to "haven’t"
-           "kind-naturd" changed to "kind-natur’d"
+           - Closing quote added
+           - "havn’t" changed to "haven’t"
+           - "kind-naturd" changed to "kind-natur’d"
 
    CHAPTER XXV.
-           Single quote changed to double
-           "ouse" is correct (dialect)
-           "ed" is correct (dialect)
+           - Single quote changed to double
+           - "ouse" is correct (dialect)
+           - "ed" is correct (dialect)
 
    CHAPTER XXVI.
-           "yo" changed to "you,"
+           - "yo" changed to "you,"
 
    CHAPTER XXIX.
-           Closing quote added
-           Correct quoting is unclear; left as text
+           - Closing quote added
+           - Correct quoting is unclear; left as text
 
    CHAPTER XXXII.
-           Closing quote added
-           Closing quote added
-           "wont" changed to "won’t"
+           - Closing quote added
+           - Closing quote added
+           - "wont" changed to "won’t"
 
    CHAPTER XXXIV.
-           "Your’s" changed to "Yours"
-           "aud" changed to "and"
+           - "Your’s" changed to "Yours"
+           - "aud" changed to "and"
 
    CHAPTER XXXV.
-           Extra opening quote removed
+           - Extra opening quote removed
 
    CHAPTER XXXVI.
-           "too" changed to "two"
-           Single quote changed to double
-           Closing quote added
-           Erroneous double quote removed
-           Closing quote added
+           - "too" changed to "two"
+           - Single quote changed to double
+           - Closing quote added
+           - Erroneous double quote removed
+           - Closing quote added
 
    CHAPTER XXXVII.
-           Erroneous comma removed
+           - Erroneous comma removed
 
    CHAPTER XXXVIII.
-           "coroboration" changed to "corroboration"
+           - "coroboration" changed to "corroboration"
+           - "D.J.M." should possibly be "D., J.M."; text from
+             printed edition retained
 
    CHAPTER XXXIX.
-           "havn’t" changed to "haven’t"
+           - comma after "incapable" questionable; text from
+             printed edition retained
+           - "havn’t" changed to "haven’t"
 
    CHAPTER XL.
-           "Peggoty" changed to "Peggotty"
+           - "Peggoty" changed to "Peggotty"
 
    CHAPTER XLII.
-           Closing quote added
-           Closing quote added
-           "mavellous" changed to "marvellous"
+           - Closing quote added
+           - Closing quote added
+           - "mavellous" changed to "marvellous"
 
    CHAPTER XLIII.
-           "give" changed to "gives"
+           - "give" changed to "gives"
 
    CHAPTER XLIV.
-           Comma questionable but left as text
+           - Comma questionable but left as text
 
    CHAPTER XLVI.
-           Closing quote added
-           "boatmens’" changed to "boatmen’s"
-           "to night" changed to "to-night"
+           - Closing quote added
+           - "boatmens’" changed to "boatmen’s"
+           - "to night" changed to "to-night"
 
    CHAPTER XLVIII.
-           capitalisation of "What" questionable; left as
+           - capitalisation of "What" questionable; left as
              text
-           "could'nt" changed to "couldn't"
+           - "could'nt" changed to "couldn't"
 
    CHAPTER XLIX.
-           "waived" changed to "waved"
+           - "waived" changed to "waved"
 
    CHAPTER LII.
-           Comma changed to period
-           "Mr" changed to "Mr."
+           - Comma changed to period
+           - "Mr" changed to "Mr."
+           - "I O U's" changed to "I. O. U.'s"
 
    CHAPTER LIV.
-           "earnestnesss" changed to "earnestness"
+           - "earnestnesss" changed to "earnestness"
 
    CHAPTER LVII.
-           "aud" changed to "and"
+           - "aud" changed to "and"
 
    CHAPTER LIX.
-           "n" changed to "in"
-           "Mr Dick" changed to "Mr. Dick"
+           - "n" changed to "in"
+           - "Mr Dick" changed to "Mr. Dick"
 
    CHAPTER LXI.
-           Closing quote added
+           - Closing quote added
 
    CHAPTER LXIII.
-           Closing quote moved
-           "old’un" changed to "old ’un"
+           - Closing quote moved
+           - "old’un" changed to "old ’un"
