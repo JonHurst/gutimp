@@ -70,15 +70,17 @@
 
 <xsl:template match="xhtml:a[@id]">
   <xsl:variable name="key" select="@id"/>
+  <xsl:for-each select="exsl:node-set($note_lookup)/j:entry[@ref=$key]">
   <dd><a>
     <xsl:attribute name="href">
-      <xsl:value-of select="concat('#', @id)"/>
+      <xsl:value-of select="concat('#', $key)"/>
     </xsl:attribute>
-    <xsl:value-of select="@id"/>
+    <xsl:value-of select="$key"/>
   </a>
   <xsl:text>: </xsl:text>
-  <xsl:value-of select="exsl:node-set($note_lookup)/j:entry[@ref=$key]"/>
+  <xsl:value-of select="."/>
   </dd>
+  </xsl:for-each>
 </xsl:template>
 
 </xsl:stylesheet>
