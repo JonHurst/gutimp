@@ -18,13 +18,14 @@ david-copperfield-a5.pdf: david-copperfield.xhtml styles.css prince-a5.css princ
 David\ Copperfield.pdf: david-copperfield-6.pdf
 	ln -sf david-copperfield-6.pdf David\ Copperfield.pdf
 
-david-copperfield_pg.html: david-copperfield.xhtml styles.css add-tn.xsl inline-css.py
+david-copperfield_pg.html: david-copperfield.xhtml styles.css add-tn.xsl inline-css.py dp_mods.patch
 	xsltproc --nodtdattr add-tn.xsl david-copperfield.xhtml | \
-	python3 inline-css.py  >david-copperfield_pg.html
+	python3 inline-css.py  | \
+   sed 's/<title>[^>]*>/<title>The Project Gutenberg eBook of David Copperfield, by Charles Dickens<\/title>/' >david-copperfield_pg.html
+	patch -b david-copperfield_pg.html dp_mods.patch
 
-david-copperfield.zip: david-copperfield_pg.html images/*
-	rm -f david-copperfield.zip
-	zip -r david-copperfield.zip david-copperfield_pg.html images
+david-copperfield.zip: david-copperfield_utf8.txt david-copperfield_lat1.txt david-copperfield_pg.html images/*
+	bash build_zip.sh
 
 david-copperfield_utf8.txt: david-copperfield.txt
 	wrap-text.py <david-copperfield.txt >david-copperfield_utf8.txt
