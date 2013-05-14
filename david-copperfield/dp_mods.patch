@@ -1,16 +1,60 @@
-*** david-copperfield_pg.html.orig	2013-05-14 12:04:10.000000000 +0100
---- david-copperfield_pg.html	2013-05-14 12:05:27.000000000 +0100
+*** david-copperfield_pg.html.orig	2013-05-14 18:42:29.000000000 +0100
+--- /home/jon/tmp/david-copperfield_pg.html	2013-05-14 18:37:19.000000000 +0100
+***************
+*** 17,26 ****
+  }
+  
+  .contents p{
+!     padding: 0.15em 0 0.15em 1em;
+      text-indent: -1em;
+      page-break-inside: avoid;
+      text-align: left;
+  }
+  
+  .contents, .chapter
+--- 17,34 ----
+  }
+  
+  .contents p{
+!     padding: 0.15em 3em 0.15em 1em;
+      text-indent: -1em;
+      page-break-inside: avoid;
+      text-align: left;
++     position:relative;
++ }
++ 
++ .dpextra {
++ position: absolute;
++ color:gray;
++ right:0;
++ top: 0;
+  }
+  
+  .contents, .chapter
+***************
+*** 32,38 ****
+  
+  .contents
+  {
+!     max-width: 25em;
+  }
+  
+  
+--- 40,46 ----
+  
+  .contents
+  {
+!     max-width: 30em;
+  }
+  
+  
 ***************
 *** 80,86 ****
---- 80,93 ----
+--- 88,97 ----
       page-break-before: avoid;
   }
   
-+ .dpextra {
-+ float:right;
-+ color:gray;
-+ margin-right: -3em;
-+ }
++ 
 + 
   @media handheld {
 +     .dpextra {display:none;}
@@ -134,7 +178,7 @@
   </div><div id="preface" class="chapter"><h2>
   PREFACE.
   </h2><p>
---- 116,121 ----
+--- 120,125 ----
 ***************
 *** 255,261 ****
   <span class="sc">London,</span>
@@ -144,7 +188,7 @@
     <img src="images/img-028.jpg" alt=""/>
     <p class="caption">Our pew at church</p>
   </div></div><div id="i029" class="captioned image fsl"><div>
---- 153,279 ----
+--- 157,283 ----
   <span class="sc">London,</span>
    <i>October</i>, 1850.
   <!--005-->
