@@ -40,6 +40,8 @@
         <p>This ebook is derived from a digitisation of a signed first edition published by Bradbury
         &amp; Evans in 1850.</p>
 
+        <p>The cover image (cover.jpg) is unconditionally released into the public domain.</p>
+
         <p>The errors detailed in the errata at the start of the print edition have been
         corrected.</p>
 

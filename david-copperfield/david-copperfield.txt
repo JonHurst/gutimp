@@ -60,74 +60,76 @@ leaves of David Copperfield, and made me happy.
 ::blank 4::
 CONTENTS.
 ::blank 2::
- Chap. I.       I am born
- Chap. II.      I observe
- Chap. III.     I have a Change
- Chap. IV.      I fall into Disgrace
- Chap. V.       I am sent away from Home
- Chap. VI.      I enlarge my Circle of Acquaintance
- Chap. VII.     My “first half” at Salem House
- Chap. VIII.    My Holidays. Especially one happy Afternoon
- Chap. IX.      I have a memorable Birthday
- Chap. X.       I become neglected, and am provided for
- Chap. XI.      I begin Life on my own Account, and don’t like it
- Chap. XII.     Liking Life on my own Account no better, I form a
-                 great Resolution
- Chap. XIII.    The Sequel of my Resolution
+ Chap. I.       I am born                                         1
+ Chap. II.      I observe                                        10
+ Chap. III.     I have a Change                                  21
+ Chap. IV.      I fall into Disgrace                             33
+ Chap. V.       I am sent away from Home                         46
+ Chap. VI.      I enlarge my Circle of Acquaintance              59
+ Chap. VII.     My “first half” at Salem House                   65
+ Chap. VIII.    My Holidays. Especially one happy Afternoon      78
+ Chap. IX.      I have a memorable Birthday                      88
+ Chap. X.       I become neglected, and am provided for          97
+ Chap. XI.      I begin Life on my own Account, and don’t       111
+                  like it
+ Chap. XII.     Liking Life on my own Account no better, I      122
+                  form a great Resolution
+ Chap. XIII.    The Sequel of my Resolution                     129
 ::page 006::
- Chap. XIV.     My Aunt makes up her Mind about me
- Chap. XV.      I make another Beginning
- Chap. XVI.     I am a New Boy in more senses than one
- Chap. XVII.    Somebody turns up
- Chap. XVIII.   A Retrospect
- Chap. XIX.     I look about me, and make a Discovery
- Chap. XX.      Steerforth’s Home
- Chap. XXI.     Little Em’ly
- Chap. XXII.    Some old Scenes, and some new People
- Chap. XXIII.   I corroborate Mr. Dick, and choose a Profession
- Chap. XXIV.    My first Dissipation
- Chap. XXV.     Good and bad Angels
- Chap. XXVI.    I fall into Captivity
- Chap. XXVII.   Tommy Traddles
- Chap. XXVIII.  Mr. Micawber’s Gauntlet
- Chap. XXIX.    I visit Steerforth at his Home, again
- Chap. XXX.     A Loss
- Chap. XXXI.    A greater Loss
- Chap. XXXII.   The Beginning of a long Journey
- Chap. XXXIII.  Blissful
+ Chap. XIV.     My Aunt makes up her Mind about me              143
+ Chap. XV.      I make another Beginning                        154
+ Chap. XVI.     I am a New Boy in more senses than one          161
+ Chap. XVII.    Somebody turns up                               176
+ Chap. XVIII.   A Retrospect                                    188
+ Chap. XIX.     I look about me, and make a Discovery           193
+ Chap. XX.      Steerforth’s Home                               205
+ Chap. XXI.     Little Em’ly                                    211
+ Chap. XXII.    Some old Scenes, and some new People            225
+ Chap. XXIII.   I corroborate Mr. Dick, and choose a            240
+                  Profession
+ Chap. XXIV.    My first Dissipation                            251
+ Chap. XXV.     Good and bad Angels                             257
+ Chap. XXVI.    I fall into Captivity                           271
+ Chap. XXVII.   Tommy Traddles                                  283
+ Chap. XXVIII.  Mr. Micawber’s Gauntlet                         289
+ Chap. XXIX.    I visit Steerforth at his Home, again           303
+ Chap. XXX.     A Loss                                          308
+ Chap. XXXI.    A greater Loss                                  314
+ Chap. XXXII.   The Beginning of a long Journey                 321
+ Chap. XXXIII.  Blissful                                        334
 ::page 007::
- Chap. XXXIV.   My Aunt astonishes me
- Chap. XXXV.    Depression
- Chap. XXXVI.   Enthusiasm
- Chap. XXXVII.  A little Cold Water
- Chap. XXXVIII. A Dissolution of Partnership
- Chap. XXXIX.   Wickfield and Heep
- Chap. XL.      The Wanderer
- Chap. XLI.     Dora’s Aunts
- Chap. XLII.    Mischief
- Chap. XLIII.   Another Retrospect
- Chap. XLIV.    Our Housekeeping
- Chap. XLV.     Mr. Dick fulfils my Aunt’s Prediction
- Chap. XLVI.    Intelligence
- Chap. XLVII.   Martha
- Chap. XLVIII.  Domestic
- Chap. XLIX.    I am involved in Mystery
- Chap. L.       Mr. Peggotty’s Dream comes true
- Chap. LI.      The Beginning of a longer Journey
- Chap. LII.     I assist at an Explosion
- Chap. LIII.    Another Retrospect
+ Chap. XXXIV.   My Aunt astonishes me                           346
+ Chap. XXXV.    Depression                                      353
+ Chap. XXXVI.   Enthusiasm                                      367
+ Chap. XXXVII.  A little Cold Water                             379
+ Chap. XXXVIII. A Dissolution of Partnership                    385
+ Chap. XXXIX.   Wickfield and Heep                              397
+ Chap. XL.      The Wanderer                                    411
+ Chap. XLI.     Dora’s Aunts                                    417
+ Chap. XLII.    Mischief                                        428
+ Chap. XLIII.   Another Retrospect                              443
+ Chap. XLIV.    Our Housekeeping                                449
+ Chap. XLV.     Mr. Dick fulfils my Aunt’s Prediction           460
+ Chap. XLVI.    Intelligence                                    471
+ Chap. XLVII.   Martha                                          481
+ Chap. XLVIII.  Domestic                                        489
+ Chap. XLIX.    I am involved in Mystery                        497
+ Chap. L.       Mr. Peggotty’s Dream comes true                 506
+ Chap. LI.      The Beginning of a longer Journey               513
+ Chap. LII.     I assist at an Explosion                        525
+ Chap. LIII.    Another Retrospect                              541
 ::page 008::
- Chap. LIV.     Mr. Micawber’s Transactions
- Chap. LV.      Tempest
- Chap. LVI.     The new Wound, and the old
- Chap. LVII.    The Emigrants
- Chap. LVIII.   Absence
- Chap. LIX.     Return
- Chap. LX.      Agnes
- Chap. LXI.     I am shown two interesting Penitents
- Chap. LXII.    A Light shines on my way
- Chap. LXIII.   A Visitor
- Chap. LXIV.    A last Retrospect
+ Chap. LIV.     Mr. Micawber’s Transactions                     545
+ Chap. LV.      Tempest                                         556
+ Chap. LVI.     The new Wound, and the old                      564
+ Chap. LVII.    The Emigrants                                   569
+ Chap. LVIII.   Absence                                         577
+ Chap. LIX.     Return                                          582
+ Chap. LX.      Agnes                                           594
+ Chap. LXI.     I am shown two interesting Penitents            600
+ Chap. LXII.    A Light shines on my way                        609
+ Chap. LXIII.   A Visitor                                       615
+ Chap. LXIV.    A last Retrospect                               621
 ::page 009::
 ::blank 4::
                                       THE
@@ -38949,6 +38951,9 @@ Transcriber's notes
 
 This ebook is derived from a digitisation of a signed first edition
 published by Bradbury & Evans in 1850.
+
+The cover image (cover.jpg) is unconditionally released into the public
+domain.
 
 The errors detailed in the errata at the start of the print edition have
 been corrected.

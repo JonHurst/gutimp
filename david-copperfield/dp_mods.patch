@@ -1,0 +1,274 @@
+*** david-copperfield_pg.html.orig	2013-05-14 12:04:10.000000000 +0100
+--- david-copperfield_pg.html	2013-05-14 12:05:27.000000000 +0100
+***************
+*** 80,86 ****
+--- 80,93 ----
+      page-break-before: avoid;
+  }
+  
++ .dpextra {
++ float:right;
++ color:gray;
++ margin-right: -3em;
++ }
++ 
+  @media handheld {
++     .dpextra {display:none;}
+      .image img {width:100%;}
+      .image {max-width:40em;}
+      #i011 {margin-top:0; padding-top:0;}
+***************
+*** 109,223 ****
+      DAVID COPPERFIELD.</h1>
+  
+      <h1 style="font-size:large;">BY CHARLES DICKENS.</h1>
+- </div><div id="toc" class="contents">
+- <h2>Contents</h2>
+- <p><a href="#preface">PREFACE.</a></p>
+- <p><a href="#ch0">CHAPTER I.</a><br/>I AM BORN.</p>
+- <p><a href="#ch1">CHAPTER II.</a><br/>I OBSERVE.</p>
+- <p><a href="#ch2">CHAPTER III.</a><br/>I HAVE A CHANGE.</p>
+- <p><a href="#ch3">CHAPTER IV.</a><br/>I FALL INTO DISGRACE.</p>
+- <p><a href="#ch4">CHAPTER V.</a><br/>I AM SENT AWAY FROM HOME.</p>
+- <p><a href="#ch5">CHAPTER VI.</a><br/>I ENLARGE MY CIRCLE OF ACQUAINTANCE.</p>
+- <p><a href="#ch6">CHAPTER VII.</a><br/>MY “FIRST HALF” AT SALEM HOUSE.</p>
+- <p><a href="#ch7">CHAPTER VIII.</a><br/>MY HOLIDAYS. ESPECIALLY ONE HAPPY AFTERNOON.</p>
+- <p><a href="#ch8">CHAPTER IX.</a><br/>I HAVE A MEMORABLE BIRTHDAY.</p>
+- <p><a href="#ch9">CHAPTER X.</a><br/>I BECOME NEGLECTED, AND AM PROVIDED FOR.</p>
+- <p><a href="#ch10">CHAPTER XI.</a><br/>I BEGIN LIFE ON MY OWN ACCOUNT, AND DON’T LIKE IT.</p>
+- <p><a href="#ch11">CHAPTER XII.</a><br/>LIKING LIFE ON MY OWN ACCOUNT NO BETTER, I FORM A GREAT RESOLUTION.</p>
+- <p><a href="#ch12">CHAPTER XIII.</a><br/>THE SEQUEL OF MY RESOLUTION.</p>
+- <p><a href="#ch13">CHAPTER XIV.</a><br/>MY AUNT MAKES UP HER MIND ABOUT ME.</p>
+- <p><a href="#ch14">CHAPTER XV.</a><br/>I MAKE ANOTHER BEGINNING.</p>
+- <p><a href="#ch15">CHAPTER XVI.</a><br/>I AM A NEW BOY IN MORE SENSES THAN ONE.</p>
+- <p><a href="#ch16">CHAPTER XVII.</a><br/>SOMEBODY TURNS UP.</p>
+- <p><a href="#ch17">CHAPTER XVIII.</a><br/>A RETROSPECT.</p>
+- <p><a href="#ch18">CHAPTER XIX.</a><br/>I LOOK ABOUT ME, AND MAKE A DISCOVERY.</p>
+- <p><a href="#ch19">CHAPTER XX.</a><br/>STEERFORTH’S HOME.</p>
+- <p><a href="#ch20">CHAPTER XXI.</a><br/>LITTLE EM’LY.</p>
+- <p><a href="#ch21">CHAPTER XXII.</a><br/>SOME OLD SCENES, AND SOME NEW PEOPLE.</p>
+- <p><a href="#ch22">CHAPTER XXIII.</a><br/>I CORROBORATE MR. DICK, AND CHOOSE A PROFESSION.</p>
+- <p><a href="#ch23">CHAPTER XXIV.</a><br/>MY FIRST DISSIPATION.</p>
+- <p><a href="#ch24">CHAPTER XXV.</a><br/>GOOD AND BAD ANGELS.</p>
+- <p><a href="#ch25">CHAPTER XXVI.</a><br/>I FALL INTO CAPTIVITY.</p>
+- <p><a href="#ch26">CHAPTER XXVII.</a><br/>TOMMY TRADDLES.</p>
+- <p><a href="#ch27">CHAPTER XXVIII.</a><br/>MR. MICAWBER’S GAUNTLET.</p>
+- <p><a href="#ch28">CHAPTER XXIX.</a><br/>I VISIT STEERFORTH AT HIS HOME, AGAIN.</p>
+- <p><a href="#ch29">CHAPTER XXX.</a><br/>A LOSS.</p>
+- <p><a href="#ch30">CHAPTER XXXI.</a><br/>A GREATER LOSS.</p>
+- <p><a href="#ch31">CHAPTER XXXII.</a><br/>THE BEGINNING OF A LONG JOURNEY.</p>
+- <p><a href="#ch32">CHAPTER XXXIII.</a><br/>BLISSFUL.</p>
+- <p><a href="#ch33">CHAPTER XXXIV.</a><br/>MY AUNT ASTONISHES ME.</p>
+- <p><a href="#ch34">CHAPTER XXXV.</a><br/>DEPRESSION.</p>
+- <p><a href="#ch35">CHAPTER XXXVI.</a><br/>ENTHUSIASM.</p>
+- <p><a href="#ch36">CHAPTER XXXVII.</a><br/>A LITTLE COLD WATER.</p>
+- <p><a href="#ch37">CHAPTER XXXVIII.</a><br/>A DISSOLUTION OF PARTNERSHIP.</p>
+- <p><a href="#ch38">CHAPTER XXXIX.</a><br/>WICKFIELD AND HEEP.</p>
+- <p><a href="#ch39">CHAPTER XL.</a><br/>THE WANDERER.</p>
+- <p><a href="#ch40">CHAPTER XLI.</a><br/>DORA’S AUNTS.</p>
+- <p><a href="#ch41">CHAPTER XLII.</a><br/>MISCHIEF.</p>
+- <p><a href="#ch42">CHAPTER XLIII.</a><br/>ANOTHER RETROSPECT.</p>
+- <p><a href="#ch43">CHAPTER XLIV.</a><br/>OUR HOUSEKEEPING.</p>
+- <p><a href="#ch44">CHAPTER XLV.</a><br/>MR. DICK FULFILS MY AUNT’S PREDICTION.</p>
+- <p><a href="#ch45">CHAPTER XLVI.</a><br/>INTELLIGENCE.</p>
+- <p><a href="#ch46">CHAPTER XLVII.</a><br/>MARTHA.</p>
+- <p><a href="#ch47">CHAPTER XLVIII.</a><br/>DOMESTIC.</p>
+- <p><a href="#ch48">CHAPTER XLIX.</a><br/>I AM INVOLVED IN MYSTERY.</p>
+- <p><a href="#ch49">CHAPTER L.</a><br/>MR. PEGGOTTY’S DREAM COMES TRUE.</p>
+- <p><a href="#ch50">CHAPTER LI.</a><br/>THE BEGINNING OF A LONGER JOURNEY.</p>
+- <p><a href="#ch51">CHAPTER LII.</a><br/>I ASSIST AT AN EXPLOSION.</p>
+- <p><a href="#ch52">CHAPTER LIII.</a><br/>ANOTHER RETROSPECT.</p>
+- <p><a href="#ch53">CHAPTER LIV.</a><br/>MR. MICAWBER’S TRANSACTIONS.</p>
+- <p><a href="#ch54">CHAPTER LV.</a><br/>TEMPEST.</p>
+- <p><a href="#ch55">CHAPTER LVI.</a><br/>THE NEW WOUND, AND THE OLD.</p>
+- <p><a href="#ch56">CHAPTER LVII.</a><br/>THE EMIGRANTS.</p>
+- <p><a href="#ch57">CHAPTER LVIII.</a><br/>ABSENCE.</p>
+- <p><a href="#ch58">CHAPTER LIX.</a><br/>RETURN.</p>
+- <p><a href="#ch59">CHAPTER LX.</a><br/>AGNES.</p>
+- <p><a href="#ch60">CHAPTER LXI.</a><br/>I AM SHOWN TWO INTERESTING PENITENTS.</p>
+- <p><a href="#ch61">CHAPTER LXII.</a><br/>A LIGHT SHINES ON MY WAY.</p>
+- <p><a href="#ch62">CHAPTER LXIII.</a><br/>A VISITOR.</p>
+- <p><a href="#ch63">CHAPTER LXIV.</a><br/>A LAST RETROSPECT.</p>
+- </div><div id="plates" class="contents">
+- 
+- <h2>LIST OF PLATES.</h2>
+- <p><a href="#i010">FRONTISPIECE.</a></p>
+- <p><a href="#i028">OUR PEW AT CHURCH</a></p>
+- <p><a href="#i029">I AM HOSPITABLY RECEIVED BY MR. PEGGOTTY</a></p>
+- <p><a href="#i064">MY MUSICAL BREAKFAST</a></p>
+- <p><a href="#i065">THE FRIENDLY WAITER AND I</a></p>
+- <p><a href="#i100">CHANGES AT HOME</a></p>
+- <p><a href="#i101">STEERFORTH AND MR. MELL</a></p>
+- <p><a href="#i136">MRS. GUMMIDGE CASTS A DAMP ON OUR DEPARTURE</a></p>
+- <p><a href="#i137">MY MAGNIFICENT ORDER AT THE PUBLIC-HOUSE</a></p>
+- <p><a href="#i172">I MAKE MYSELF KNOWN TO MY AUNT</a></p>
+- <p><a href="#i173">THE MOMENTOUS INTERVIEW</a></p>
+- <p><a href="#i208">I RETURN TO THE DOCTOR’S AFTER THE PARTY</a></p>
+- <p><a href="#i209">SOMEBODY TURNS UP</a></p>
+- <p><a href="#i244">MY FIRST FALL IN LIFE</a></p>
+- <p><a href="#i245">WE ARRIVE UNEXPECTEDLY AT MR. PEGGOTTY’S FIRESIDE</a></p>
+- <p><a href="#i280">I MAKE THE ACQUAINTANCE OF MISS MOWCHER</a></p>
+- <p><a href="#i281">MARTHA</a></p>
+- <p><a href="#i316">I FALL INTO CAPTIVITY</a></p>
+- <p><a href="#i317">URIAH PERSISTS IN HOVERING NEAR US, AT THE DINNER PARTY</a></p>
+- <p><a href="#i352">WE ARE DISTURBED IN OUR COOKERY</a></p>
+- <p><a href="#i353">I FIND MR. BARKIS “GOING OUT WITH THE TIDE”</a></p>
+- <p><a href="#i388">MY AUNT ASTONISHES ME</a></p>
+- <p><a href="#i389">MR. PEGGOTTY AND MRS. STEERFORTH</a></p>
+- <p><a href="#i424">MR. MICAWBER DELIVERS SOME VALEDICTORY REMARKS</a></p>
+- <p><a href="#i425">MR. WICKFIELD AND HIS PARTNER WAIT UPON MY AUNT</a></p>
+- <p><a href="#i460">THE WANDERER</a></p>
+- <p><a href="#i461">TRADDLES MAKES A FIGURE IN PARLIAMENT, AND I REPORT HIM</a></p>
+- <p><a href="#i496">I AM MARRIED</a></p>
+- <p><a href="#i497">TRADDLES AND I, IN CONFERENCE WITH THE MISSES SPENLOW</a></p>
+- <p><a href="#i532">OUR HOUSEKEEPING</a></p>
+- <p><a href="#i533">MR. DICK FULFILS MY AUNT’S PREDICTION</a></p>
+- <p><a href="#i568">MR. PEGGOTTY’S DREAM COMES TRUE</a></p>
+- <p><a href="#i569">THE RIVER</a></p>
+- <p><a href="#i604">MY CHILD-WIFE’S OLD COMPANION</a></p>
+- <p><a href="#i605">RESTORATION OF MUTUAL CONFIDENCE BETWEEN MR. AND MRS. MICAWBER</a></p>
+- <p><a href="#i640">THE EMIGRANTS</a></p>
+- <p><a href="#i641">I AM THE BEARER OF EVIL TIDINGS</a></p>
+- <p><a href="#i660">A STRANGER CALLS TO SEE ME</a></p>
+- <p><a href="#i661">I AM SHOWN TWO INTERESTING PENITENTS</a></p>
+  </div><div id="preface" class="chapter"><h2>
+  PREFACE.
+  </h2><p>
+--- 116,121 ----
+***************
+*** 255,261 ****
+  <span class="sc">London,</span>
+   <i>October</i>, 1850.
+  <!--005-->
+! </p></div><div id="i028" class="captioned image fsp"><div>
+    <img src="images/img-028.jpg" alt=""/>
+    <p class="caption">Our pew at church</p>
+  </div></div><div id="i029" class="captioned image fsl"><div>
+--- 153,279 ----
+  <span class="sc">London,</span>
+   <i>October</i>, 1850.
+  <!--005-->
+! </p></div><div id="toc" class="contents">
+! <h2>Contents</h2>
+! <p><a href="#ch0">CHAPTER I.</a><span class="dpextra">1</span><br/>I AM BORN.</p>
+! <p><a href="#ch1">CHAPTER II.</a><span class="dpextra">10</span><br/>I OBSERVE.</p>
+! <p><a href="#ch2">CHAPTER III.</a><span class="dpextra">21</span><br/>I HAVE A CHANGE.</p>
+! <p><a href="#ch3">CHAPTER IV.</a><span class="dpextra">33</span><br/>I FALL INTO DISGRACE.</p>
+! <p><a href="#ch4">CHAPTER V.</a><span class="dpextra">46</span><br/>I AM SENT AWAY FROM HOME.</p>
+! <p><a href="#ch5">CHAPTER VI.</a><span class="dpextra">59</span><br/>I ENLARGE MY CIRCLE OF ACQUAINTANCE.</p>
+! <p><a href="#ch6">CHAPTER VII.</a><span class="dpextra">65</span><br/>MY “FIRST HALF” AT SALEM HOUSE.</p>
+! <p><a href="#ch7">CHAPTER VIII.</a><span class="dpextra">78</span><br/>MY HOLIDAYS. ESPECIALLY ONE HAPPY AFTERNOON.</p>
+! <p><a href="#ch8">CHAPTER IX.</a><span class="dpextra">88</span><br/>I HAVE A MEMORABLE BIRTHDAY.</p>
+! <p><a href="#ch9">CHAPTER X.</a><span class="dpextra">97</span><br/>I BECOME NEGLECTED, AND AM PROVIDED FOR.</p>
+! <p><a href="#ch10">CHAPTER XI.</a><span class="dpextra">111</span><br/>I BEGIN LIFE ON MY OWN ACCOUNT, AND DON’T LIKE IT.</p>
+! <p><a href="#ch11">CHAPTER XII.</a><span class="dpextra">122</span><br/>LIKING LIFE ON MY OWN ACCOUNT NO BETTER, I FORM A GREAT RESOLUTION.</p>
+! <p><a href="#ch12">CHAPTER XIII.</a><span class="dpextra">129</span><br/>THE SEQUEL OF MY RESOLUTION.</p>
+! <p><a href="#ch13">CHAPTER XIV.</a><span class="dpextra">143</span><br/>MY AUNT MAKES UP HER MIND ABOUT ME.</p>
+! <p><a href="#ch14">CHAPTER XV.</a><span class="dpextra">154</span><br/>I MAKE ANOTHER BEGINNING.</p>
+! <p><a href="#ch15">CHAPTER XVI.</a><span class="dpextra">161</span><br/>I AM A NEW BOY IN MORE SENSES THAN ONE.</p>
+! <p><a href="#ch16">CHAPTER XVII.</a><span class="dpextra">176</span><br/>SOMEBODY TURNS UP.</p>
+! <p><a href="#ch17">CHAPTER XVIII.</a><span class="dpextra">188</span><br/>A RETROSPECT.</p>
+! <p><a href="#ch18">CHAPTER XIX.</a><span class="dpextra">193</span><br/>I LOOK ABOUT ME, AND MAKE A DISCOVERY.</p>
+! <p><a href="#ch19">CHAPTER XX.</a><span class="dpextra">205</span><br/>STEERFORTH’S HOME.</p>
+! <p><a href="#ch20">CHAPTER XXI.</a><span class="dpextra">211</span><br/>LITTLE EM’LY.</p>
+! <p><a href="#ch21">CHAPTER XXII.</a><span class="dpextra">225</span><br/>SOME OLD SCENES, AND SOME NEW PEOPLE.</p>
+! <p><a href="#ch22">CHAPTER XXIII.</a><span class="dpextra">240</span><br/>I CORROBORATE MR. DICK, AND CHOOSE A PROFESSION.</p>
+! <p><a href="#ch23">CHAPTER XXIV.</a><span class="dpextra">251</span><br/>MY FIRST DISSIPATION.</p>
+! <p><a href="#ch24">CHAPTER XXV.</a><span class="dpextra">257</span><br/>GOOD AND BAD ANGELS.</p>
+! <p><a href="#ch25">CHAPTER XXVI.</a><span class="dpextra">271</span><br/>I FALL INTO CAPTIVITY.</p>
+! <p><a href="#ch26">CHAPTER XXVII.</a><span class="dpextra">283</span><br/>TOMMY TRADDLES.</p>
+! <p><a href="#ch27">CHAPTER XXVIII.</a><span class="dpextra">289</span><br/>MR. MICAWBER’S GAUNTLET.</p>
+! <p><a href="#ch28">CHAPTER XXIX.</a><span class="dpextra">303</span><br/>I VISIT STEERFORTH AT HIS HOME, AGAIN.</p>
+! <p><a href="#ch29">CHAPTER XXX.</a><span class="dpextra">308</span><br/>A LOSS.</p>
+! <p><a href="#ch30">CHAPTER XXXI.</a><span class="dpextra">314</span><br/>A GREATER LOSS.</p>
+! <p><a href="#ch31">CHAPTER XXXII.</a><span class="dpextra">321</span><br/>THE BEGINNING OF A LONG JOURNEY.</p>
+! <p><a href="#ch32">CHAPTER XXXIII.</a><span class="dpextra">334</span><br/>BLISSFUL.</p>
+! <p><a href="#ch33">CHAPTER XXXIV.</a><span class="dpextra">346</span><br/>MY AUNT ASTONISHES ME.</p>
+! <p><a href="#ch34">CHAPTER XXXV.</a><span class="dpextra">353</span><br/>DEPRESSION.</p>
+! <p><a href="#ch35">CHAPTER XXXVI.</a><span class="dpextra">367</span><br/>ENTHUSIASM.</p>
+! <p><a href="#ch36">CHAPTER XXXVII.</a><span class="dpextra">379</span><br/>A LITTLE COLD WATER.</p>
+! <p><a href="#ch37">CHAPTER XXXVIII.</a><span class="dpextra">385</span><br/>A DISSOLUTION OF PARTNERSHIP.</p>
+! <p><a href="#ch38">CHAPTER XXXIX.</a><span class="dpextra">397</span><br/>WICKFIELD AND HEEP.</p>
+! <p><a href="#ch39">CHAPTER XL.</a><span class="dpextra">411</span><br/>THE WANDERER.</p>
+! <p><a href="#ch40">CHAPTER XLI.</a><span class="dpextra">417</span><br/>DORA’S AUNTS.</p>
+! <p><a href="#ch41">CHAPTER XLII.</a><span class="dpextra">428</span><br/>MISCHIEF.</p>
+! <p><a href="#ch42">CHAPTER XLIII.</a><span class="dpextra">443</span><br/>ANOTHER RETROSPECT.</p>
+! <p><a href="#ch43">CHAPTER XLIV.</a><span class="dpextra">449</span><br/>OUR HOUSEKEEPING.</p>
+! <p><a href="#ch44">CHAPTER XLV.</a><span class="dpextra">460</span><br/>MR. DICK FULFILS MY AUNT’S PREDICTION.</p>
+! <p><a href="#ch45">CHAPTER XLVI.</a><span class="dpextra">471</span><br/>INTELLIGENCE.</p>
+! <p><a href="#ch46">CHAPTER XLVII.</a><span class="dpextra">481</span><br/>MARTHA.</p>
+! <p><a href="#ch47">CHAPTER XLVIII.</a><span class="dpextra">489</span><br/>DOMESTIC.</p>
+! <p><a href="#ch48">CHAPTER XLIX.</a><span class="dpextra">497</span><br/>I AM INVOLVED IN MYSTERY.</p>
+! <p><a href="#ch49">CHAPTER L.</a><span class="dpextra">506</span><br/>MR. PEGGOTTY’S DREAM COMES TRUE.</p>
+! <p><a href="#ch50">CHAPTER LI.</a><span class="dpextra">513</span><br/>THE BEGINNING OF A LONGER JOURNEY.</p>
+! <p><a href="#ch51">CHAPTER LII.</a><span class="dpextra">525</span><br/>I ASSIST AT AN EXPLOSION.</p>
+! <p><a href="#ch52">CHAPTER LIII.</a><span class="dpextra">541</span><br/>ANOTHER RETROSPECT.</p>
+! <p><a href="#ch53">CHAPTER LIV.</a><span class="dpextra">545</span><br/>MR. MICAWBER’S TRANSACTIONS.</p>
+! <p><a href="#ch54">CHAPTER LV.</a><span class="dpextra">556</span><br/>TEMPEST.</p>
+! <p><a href="#ch55">CHAPTER LVI.</a><span class="dpextra">564</span><br/>THE NEW WOUND, AND THE OLD.</p>
+! <p><a href="#ch56">CHAPTER LVII.</a><span class="dpextra">569</span><br/>THE EMIGRANTS.</p>
+! <p><a href="#ch57">CHAPTER LVIII.</a><span class="dpextra">577</span><br/>ABSENCE.</p>
+! <p><a href="#ch58">CHAPTER LIX.</a><span class="dpextra">582</span><br/>RETURN.</p>
+! <p><a href="#ch59">CHAPTER LX.</a><span class="dpextra">594</span><br/>AGNES.</p>
+! <p><a href="#ch60">CHAPTER LXI.</a><span class="dpextra">600</span><br/>I AM SHOWN TWO INTERESTING PENITENTS.</p>
+! <p><a href="#ch61">CHAPTER LXII.</a><span class="dpextra">609</span><br/>A LIGHT SHINES ON MY WAY.</p>
+! <p><a href="#ch62">CHAPTER LXIII.</a><span class="dpextra">615</span><br/>A VISITOR.</p>
+! <p><a href="#ch63">CHAPTER LXIV.</a><span class="dpextra">621</span><br/>A LAST RETROSPECT.</p>
+! </div><div id="plates" class="contents">
+! 
+! <h2>LIST OF PLATES.</h2>
+! <p><a href="#i010">FRONTISPIECE.</a></p>
+! <p><a href="#i028">OUR PEW AT CHURCH</a><span class="dpextra">11</span></p>
+! <p><a href="#i029">I AM HOSPITABLY RECEIVED BY MR. PEGGOTTY</a><span class="dpextra">23</span></p>
+! <p><a href="#i065">THE FRIENDLY WAITER AND I</a><span class="dpextra">49</span></p>
+! <p><a href="#i064">MY MUSICAL BREAKFAST</a><span class="dpextra">55</span></p>
+! <p><a href="#i101">STEERFORTH AND MR. MELL</a><span class="dpextra">70</span></p>
+! <p><a href="#i100">CHANGES AT HOME</a><span class="dpextra">79</span></p>
+! <p><a href="#i136">MRS. GUMMIDGE CASTS A DAMP ON OUR DEPARTURE</a><span class="dpextra">105</span></p>
+! <p><a href="#i137">MY MAGNIFICENT ORDER AT THE PUBLIC-HOUSE</a><span class="dpextra">117</span></p>
+! <p><a href="#i172">I MAKE MYSELF KNOWN TO MY AUNT</a><span class="dpextra">137</span></p>
+! <p><a href="#i173">THE MOMENTOUS INTERVIEW</a><span class="dpextra">149</span></p>
+! <p><a href="#i208">I RETURN TO THE DOCTOR’S AFTER THE PARTY</a><span class="dpextra">175</span></p>
+! <p><a href="#i209">SOMEBODY TURNS UP</a><span class="dpextra">182</span></p>
+! <p><a href="#i244">MY FIRST FALL IN LIFE</a><span class="dpextra">201</span></p>
+! <p><a href="#i245">WE ARRIVE UNEXPECTEDLY AT MR. PEGGOTTY’S FIRESIDE</a><span class="dpextra">220</span></p>
+! <p><a href="#i280">I MAKE THE ACQUAINTANCE OF MISS MOWCHER</a><span class="dpextra">233</span></p>
+! <p><a href="#i281">MARTHA</a><span class="dpextra">238</span></p>
+! <p><a href="#i317">URIAH PERSISTS IN HOVERING NEAR US, AT THE DINNER PARTY</a><span class="dpextra">262</span></p>
+! <p><a href="#i316">I FALL INTO CAPTIVITY</a><span class="dpextra">274</span></p>
+! <p><a href="#i352">WE ARE DISTURBED IN OUR COOKERY</a><span class="dpextra">292</span></p>
+! <p><a href="#i353">I FIND MR. BARKIS “GOING OUT WITH THE TIDE”</a><span class="dpextra">313</span></p>
+! <p><a href="#i389">MR. PEGGOTTY AND MRS. STEERFORTH</a><span class="dpextra">330</span></p>
+! <p><a href="#i388">MY AUNT ASTONISHES ME</a><span class="dpextra">350</span></p>
+! <p><a href="#i425">MR. WICKFIELD AND HIS PARTNER WAIT UPON MY AUNT</a><span class="dpextra">364</span></p>
+! <p><a href="#i424">MR. MICAWBER DELIVERS SOME VALEDICTORY REMARKS</a><span class="dpextra">378</span></p>
+! <p><a href="#i461">TRADDLES MAKES A FIGURE IN PARLIAMENT, AND I REPORT HIM</a><span class="dpextra">386</span></p>
+! <p><a href="#i460">THE WANDERER</a><span class="dpextra">412</span></p>
+! <p><a href="#i497">TRADDLES AND I, IN CONFERENCE WITH THE MISSES SPENLOW</a><span class="dpextra">420</span></p>
+! <p><a href="#i496">I AM MARRIED</a><span class="dpextra">447</span></p>
+! <p><a href="#i532">OUR HOUSEKEEPING</a><span class="dpextra">454</span></p>
+! <p><a href="#i533">MR. DICK FULFILS MY AUNT’S PREDICTION</a><span class="dpextra">465</span></p>
+! <p><a href="#i569">THE RIVER</a><span class="dpextra">482</span></p>
+! <p><a href="#i568">MR. PEGGOTTY’S DREAM COMES TRUE</a><span class="dpextra">512</span></p>
+! <p><a href="#i605">RESTORATION OF MUTUAL CONFIDENCE BETWEEN MR. AND MRS. MICAWBER</a><span class="dpextra">539</span></p>
+! <p><a href="#i604">MY CHILD-WIFE’S OLD COMPANION</a><span class="dpextra">544</span></p>
+! <p><a href="#i641">I AM THE BEARER OF EVIL TIDINGS</a><span class="dpextra">566</span></p>
+! <p><a href="#i640">THE EMIGRANTS</a><span class="dpextra">575</span></p>
+! <p><a href="#i661">I AM SHOWN TWO INTERESTING PENITENTS</a><span class="dpextra">605</span></p>
+! <p><a href="#i660">A STRANGER CALLS TO SEE ME</a><span class="dpextra">615</span></p>
+! </div><div class="chapter"><h2>ERRATA.</h2>
+! <ul>
+! <li>Page 74, line 7 from bottom of page, for “bo’” read “bor’.”</li>
+! <li>Page 74, “ 2 from bottom of page, make the same correction.</li>
+! <li>Page 76, “ 14 from bottom of page, make the same correction.</li>
+! <li>Page 102, “ 21 from top of page, make the same correction.</li>
+! <li>Page 102, twenty lines in advance, make the same correction.</li>
+! <li>Page 558, line 19 from bottom of page, for “Norwich” read “Ipswich.”</li>
+! </ul>
+! <p>[Transcriber's note: This errata was included in the print edition and has been corrected in this
+! electronic edition]</p>
+! </div>
+! <div id="i028" class="captioned image fsp"><div>
+    <img src="images/img-028.jpg" alt=""/>
+    <p class="caption">Our pew at church</p>
+  </div></div><div id="i029" class="captioned image fsl"><div>
