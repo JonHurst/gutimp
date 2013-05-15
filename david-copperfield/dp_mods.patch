@@ -1,5 +1,5 @@
-*** david-copperfield_pg.html.orig	2013-05-14 18:42:29.000000000 +0100
---- /home/jon/tmp/david-copperfield_pg.html	2013-05-14 18:37:19.000000000 +0100
+*** david-copperfield_pg.html.orig	2013-05-14 18:44:17.000000000 +0100
+--- david-copperfield_pg.html	2013-05-15 17:52:08.000000000 +0100
 ***************
 *** 17,26 ****
   }
@@ -303,9 +303,9 @@
 ! </div><div class="chapter"><h2>ERRATA.</h2>
 ! <ul>
 ! <li>Page 74, line 7 from bottom of page, for “bo’” read “bor’.”</li>
-! <li>Page 74, “ 2 from bottom of page, make the same correction.</li>
-! <li>Page 76, “ 14 from bottom of page, make the same correction.</li>
-! <li>Page 102, “ 21 from top of page, make the same correction.</li>
+! <li>Page 74, line 2 from bottom of page, make the same correction.</li>
+! <li>Page 76, line 14 from bottom of page, make the same correction.</li>
+! <li>Page 102, line 21 from top of page, make the same correction.</li>
 ! <li>Page 102, twenty lines in advance, make the same correction.</li>
 ! <li>Page 558, line 19 from bottom of page, for “Norwich” read “Ipswich.”</li>
 ! </ul>
