@@ -132,6 +132,21 @@ CONTENTS.
  Chap. LXIV.    A last Retrospect                               621
 ::page 009::
 ::blank 4::
+ERRATA.
+::blank 2::
+::wrap off::
+Page 74, line 7 from bottom of page, _for_ “bo’” _read_ “bor’.”
+     74, “ 2 from bottom of page, make the same correction.
+     76, “ 14 from bottom of page, make the same correction.
+    102, “ 21 from top of page, make the same correction.
+    102, twenty lines in advance, make the same correction.
+    558, line 19 from bottom of page, _for_ “Norwich” _read_ “Ipswich.”
+
+::wrap left::
+[Transcriber's note: This errata appears at the start of the print
+edition and has been corrected in this electronic edition]
+::page 012::
+::blank 4::
                                       THE
 
                         PERSONAL HISTORY AND EXPERIENCE
