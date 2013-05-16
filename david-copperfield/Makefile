@@ -31,7 +31,7 @@ david-copperfield_utf8.txt: david-copperfield.txt
 	wrap-text.py <david-copperfield.txt >david-copperfield_utf8.txt
 
 david-copperfield_lat1.txt: david-copperfield_utf8.txt
-	iconv -f utf8 -t l1//TRANSLIT david-copperfield_utf8.txt >david-copperfield_lat1.txt
+	sed "s/〞/\" /g" david-copperfield_utf8.txt | iconv -f utf8 -t l1//TRANSLIT >david-copperfield_lat1.txt
 
 david-copperfield_noillos.xhtml: david-copperfield.xhtml
 	xsltproc --nodtdattr strip-illustrations.xsl david-copperfield.xhtml > david-copperfield_noillos.xhtml
